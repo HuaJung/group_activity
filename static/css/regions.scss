@@ -1,0 +1,152 @@
+section {
+    .taiwan_box {
+        .district {
+            &.taichung{
+                left: 71px;
+                top: 328px;
+                width: 100px;
+                height: 100px;
+                background-image: url('../image/taichung.svg');
+                transform: scale(4.5);
+                z-index: 80;
+                &.show{
+                  display: block;
+                  &.active{
+                    opacity: 1;
+                  }
+                }
+                &:hover{
+                  opacity: 0.3;
+                }
+            }
+            &.changhuaCounty{
+              left: -157px;
+              top: 450px;
+              width: 100px;
+              height: 100px;
+              background-image: url('../image/changhua.svg');
+              transform: scale(2.18);
+              z-index: 80;
+              &.show{
+                display: block;
+                &.active{
+                  opacity: 1;
+                }
+              }
+              &:hover{
+                opacity: 0.3;
+              }
+            }
+          &.yunlinCounty{
+            left: -171px;
+            top: 608px;
+            width: 100px;
+            height: 100px;
+            background-image: url('../image/yunlin.svg');
+            transform: scale(2.86);
+            z-index: 80;
+            &.show{
+              display: block;
+              &.active{
+                opacity: 1;
+              }
+            }
+            &:hover{
+              opacity: 0.3;
+            }
+          }
+        &.nantouCounty{
+          left: 83px;
+          top: 524px;
+          width: 100px;
+          height: 100px;
+          background-image: url('../image/nantou.svg');
+          transform: scale(4.05);
+          z-index: 80;
+          // display: block;
+          // opacity: .5;
+          &.show{
+            display: block;
+            &.active{
+              opacity: 1;
+            }
+          }
+          &:hover{
+            opacity: 0.3;
+          }
+        }
+        &.chiayi{
+          left: -34px;
+          top: 187px;
+          width: 100px;
+          height: 100px;
+          background-image: url('../image/chiayi.svg');
+          transform: scale(3.61);
+          z-index: 80;
+          &.show{
+            display: block;
+            &.active{
+              opacity: 1;
+            }
+          }
+          &:hover{
+            opacity: 0.3;
+          }
+        }
+        &.tainan{
+          left: -111px;
+          top: 310px;
+          width: 100px;
+          height: 100px;
+          background-image: url('../image/tainan.svg');
+          transform: scale(2.6);
+          z-index: 80;
+          &.show{
+            display: block;
+            &.active{
+              opacity: 1;
+            }
+          }
+          &:hover{
+            opacity: 0.3;
+          }
+        }
+        &.kaohsiung{
+          left: -1px;
+          top: 389px;
+          width: 100px;
+          height: 100px;
+          background-image: url('../image/kaohsiung.svg');
+          transform: scale(4.46);
+          z-index: 80;
+          &.show{
+            display: block;
+            &.active{
+              opacity: 1;
+            }
+          }
+          &:hover{
+            opacity: 0.3;
+          }
+        }
+        &.pingtungCounty{
+          left: 6px;
+          top: 648px;
+          width: 100px;
+          height: 100px;
+          background-image: url('../image/pingtung.svg');
+          transform: scale(4.41);
+          z-index: 80;
+          &.show{
+            display: block;
+            &.active{
+              opacity: 1;
+            }
+          }
+          &:hover{
+            opacity: 0.3;
+          }
+        }
+      }
+    }
+}
